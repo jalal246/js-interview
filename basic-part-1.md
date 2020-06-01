@@ -331,6 +331,18 @@ var bar = function () {
 typeof bar(); // "number"
 ```
 
+## difference between `typeof` and `instanceof`
+
+- The `typeof` operator checks if a value belongs to one of the seven basic
+  types: `number`, `string`, `boolean`, `object`, `function`, `undefined` or `Symbol`.
+
+- The `instanceof` operator works on the level of prototype.
+
+```js
+var dog = new Animal();
+dog instanceof Animal;
+```
+
 ## Disclaimer
 
 This is cloned from famous
