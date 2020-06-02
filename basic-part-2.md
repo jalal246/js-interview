@@ -348,6 +348,7 @@ if (typeof someProperty === "undefined") {
 
 This is cloned from famous
 [123-Essential-JavaScript-Interview-Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions)
-re-written with different distribution. With extra resources [Singleton Design
-Pattern - Beau teaches JavaScript](https://www.youtube.com/watch?v=bgU7FeiWKzc)
-and [Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+re-written with different distribution and focused more in tricky questions.
+With extra resources [Singleton Design Pattern - Beau teaches
+JavaScript](https://www.youtube.com/watch?v=bgU7FeiWKzc)
+and [Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting).

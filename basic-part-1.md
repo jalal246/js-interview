@@ -347,5 +347,5 @@ dog instanceof Animal;
 
 This is cloned from famous
 [123-Essential-JavaScript-Interview-Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions)
-re-written with different distribution. All credits go to the authors and
-contributes of the original repo.
+re-written with different distribution and focused more in tricky questions. All
+credits go to the authors and contributes of the original repo.

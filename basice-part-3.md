@@ -1,6 +1,6 @@
 # Key points - JS - Part 3
 
-- Estimated Time: 1 hour
+- Estimated Time: less than 1 hour
 
 ## 1) What are promises and how they are useful
 
@@ -242,4 +242,4 @@ example](https://stackoverflow.com/questions/750486/javascript-closure-inside-lo
 [Object.seal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal),
 [Object.preventExtensions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions)
 and
-[Object.freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
+[Object.freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze).
