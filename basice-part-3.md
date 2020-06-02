@@ -1,8 +1,8 @@
 # Key points - JS - Part 3
 
-- Estimated Time: less than 1 hour
+\* Estimated Time: less than 1 hour
 
-## 1) What are promises and how they are useful
+## 1) What are promises and how they are useful?
 
 1- We use promises for handling asynchronous interactions in a sequential
 manner.
@@ -56,7 +56,7 @@ for (var i = 0; i < arr.length; i++) {
 }
 ```
 
-### What is the ES6 solution
+### What is the ES6 solution?
 
 > using `let` instead of `var`
 
@@ -81,7 +81,7 @@ arr.forEach(function (i) {
 });
 ```
 
-## 3) How does object inherit from another object without invoking a constructor
+## 3) How does object inherit from another object without invoking a constructor?
 
 > Object.create()
 
@@ -99,7 +99,7 @@ me.name = "Matthew"; // "name" is a property set on "me", but not on "person"
 me.isHuman = true; // inherited properties can be overwritten
 ```
 
-## 4) How we can prevent modification of object in JavaScript
+## 4) How we can prevent modification of object?
 
 ### 1- Prevent extensions
 
@@ -203,7 +203,7 @@ appLog("Some error message");
 //output of above console: 'your app name Some error message'
 ```
 
-## 6) What is non-enumerable property in JavaScript and how you can create one
+## 6) What is non-enumerable property in JavaScript and how you can create one?
 
 > properties that don't show up when you iterate through object using for...in loop or using Object.keys()
 

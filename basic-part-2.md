@@ -1,10 +1,10 @@
 # Key points - JS - Part 2
 
-- Estimated Time: 1 hour
+\* Estimated Time: 1 hour
 
 ## 1) functions
 
-### Which function is defined in `run time` and which is in `parse time`
+### Which function is defined in `run time` and which is in `parse time`?
 
 ```js
 var foo = function () {
@@ -35,7 +35,7 @@ bar(); // Call bar function here, It will not give an Error
 function bar() {}
 ```
 
-### What is the output of the following
+### What is the output of the following:
 
 ```js
 bar();
@@ -161,7 +161,7 @@ emp1.name; // "John Doe"
 emp1.age; // 28
 ```
 
-### What would be the output of the following
+### What would be the output of the following:
 
 ```js
 function User(name) {
@@ -184,7 +184,7 @@ So, the output is `USA`.
 // };
 ```
 
-## 2) What are Service Workers and when can you use them
+## 2) What are Service Workers and when can you use them?
 
 > It’s a technology that allows your web application to use cached resources
 > first, and provide default experience offline, before getting more data from
@@ -249,7 +249,7 @@ console.log(singleA.publicProperty);
 console.log(singleA.getRandomNumber() === singleB.getRandomNumber());
 ```
 
-## 4) What are the ways of creating objects in JavaScript
+## 4) What are the ways of creating objects?
 
 ### 1- Function based
 
@@ -263,7 +263,15 @@ var employee1 = new Employee("John", "Doe");
 var employee2 = new Employee("Jane", "Doe");
 ```
 
-### 2- Object Literal
+### 2- Function constructor with prototype
+
+```js
+function Person() {}
+Person.prototype.name = "John Doe";
+var object = new Person();
+```
+
+### 3- Object Literal
 
 ```js
 var employee = {
@@ -275,7 +283,7 @@ var employee = {
 };
 ```
 
-### 3- From `Object` using `new` keyword
+### 4- From `Object` using `new` keyword (Object constructor)
 
 ```js
 var employee = new Object(); // Created employee object using new keywords and Object()
@@ -285,13 +293,25 @@ employee.getName = function () {
 };
 ```
 
-### 4- Using Object.create
+### 5- Using Object.create
 
 `Object.create(obj)` will create a new object and set the `obj` as its
 `prototype`. You can use `Object.create(null`) when you don’t want your object to
 inherit the properties of Object.
 
-## 5) Write a function called deepClone which takes an object and creates a object copy of it
+### 6- ES6 Class syntax
+
+```js
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+var object = new Person("John Doe");
+```
+
+## 5) Write a function called `deepClone` which takes an object and creates a copy of it
 
 ```js
 function deepClone(object) {
@@ -334,7 +354,7 @@ var personalDetail = {
 };
 ```
 
-## 6) Best way to detect `undefined`
+## 6) What's best way to detect `undefined`?
 
 > We can use `typeof` operator to check `undefined`
 

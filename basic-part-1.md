@@ -2,7 +2,7 @@
 
 \* Estimated Time: 1 hour
 
-## 1) What's the difference between `undefined` and `not defined` in JavaScript
+## 1) What's the difference between `undefined` and `not defined`?
 
 - `not defined` is for undeclared variables.
 - `undefined` is for declared variables without a value.
@@ -15,7 +15,7 @@ typeof x === "undefined"; // Will return true
 console.log(y); // Output: ReferenceError: y is not defined
 ```
 
-## 2) For which value of x the results of the following statements are not the same
+## 2) For which value of x the results of the following statements are not the same?
 
 ```js
 //  if( x <= 100 ) {...}
@@ -83,7 +83,7 @@ var bar = true;
 console.log(bar + "Foo"); // trueFoo
 ```
 
-## 3) What is the drawback of declaring methods directly in JavaScript objects
+## 3) What is the drawback of declaring methods directly in objects?
 
 > Performance.
 
@@ -113,7 +113,7 @@ var emp2 = new Employee("Jane", "Doe");
 For each new object created they will have their own copy of `fullName` method
 while `fullName2` will only be added once to an object Employee.prototype
 
-## 4) What is “closure” in JavaScript
+## 4) What is “closure”?
 
 > a function defined inside another function.
 
@@ -152,7 +152,7 @@ innerFuncVar = y;
 globalVar = abc;
 ```
 
-## 5) Write a mul function which will work properly when invoked with following syntax
+## 5) Write a mul function which will work properly when invoked with following syntax:
 
 ```js
 console.log(mul(2)(3)(4)); // output : 24
@@ -171,7 +171,7 @@ function mull(x) {
 }
 ```
 
-## 6) How to empty an array in JavaScript
+## 6) How to empty an array?
 
 ### Method 1: array = []
 
@@ -215,7 +215,7 @@ while (arrayList.length) {
 console.log(referencedArr); // Output []
 ```
 
-## How to check if a given variable is an array
+## How to check if a given variable is an array?
 
 In modern browser:
 
@@ -305,7 +305,7 @@ However `fruits[1] === undefined` in any browser.
 
 ## 10) typeof
 
-### What will be the output of the following code
+### What will be the output of the following code:
 
 <!-- prettier-ignore -->
 ```js
